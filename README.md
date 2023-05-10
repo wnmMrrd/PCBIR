@@ -1,0 +1,5 @@
+# PCBIR
+
+datafiles中存储了所有的图片，我们基于这个本地图片库建立数据库，数据库存放在文件image library的副本.sql中，最后一个表格对应的是基于形状特征向量建立的KD树。
+
+测试时运行/PCBIR/src/image_processing/PictureShapeSimilarityContrast.java里的main函数，其中将PictureShapeSimilarityContrast.java第219行的i<1改为i<n来实现n次检索。
